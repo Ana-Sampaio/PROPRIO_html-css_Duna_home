@@ -1,0 +1,135 @@
+body{
+	background-image: url("https://cdn.mos.cms.futurecdn.net/nKLsP2bXfdCaSDepXkE8BJ.jpeg");
+	background-size: cover;
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+/*HEADER*/
+.Atreides{
+	width: 132px;
+	height: 82px;
+	border: 2px solid #e0a338;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+nav{
+	position: absolute;
+	top: 56px;
+	right: 20px;
+}
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+nav a{
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 17px;
+	color: #C2FBFC;
+} 
+nav a:hover{
+	color: #e0a338;
+	text-decoration: underline; 
+}
+/*MAIN*/
+/*homepage*/
+main{
+	margin: 0 100px 0 100px;
+}
+.titulo{
+	text-align: center;
+	font-size: 2em;
+	margin: 1.5em 0 1em 0;
+	font-weight: bold;
+	color:  #C2FBFC;
+	font-style: italic; 
+}
+.quote p{
+	margin: 0 0 3em;
+	color:  #C2FBFC;
+	text-align: center;
+	font-size: 19px;
+}
+.quote strong{
+	font-weight: bold;
+}
+.quote em{
+	font-style: italic;
+}
+.subtitulo{
+	margin: 1.5em 0 1.5em 0;
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: bold;
+	color:  #C2FBFC;
+	font-style: italic;
+	clear: left;
+}
+.volumes{
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	padding: 1em 0;
+  	display: flex;
+}
+.nomes{
+	width: 40%;
+	display: inline-block;
+	color:  #C2FBFC;
+	font-style: italic;
+	font-size: 19px;
+	vertical-align: middle;
+	text-align: center;
+  	list-style: none;
+	}
+.saga{
+	line-height: 1.5;
+}
+.saga:nth-child(2n){
+	font-weight: bold;
+}
+.shai-hulud{
+	width: calc(59% - 2px);
+	border: 2px solid #e0a338;
+	opacity: 0.5;
+	transition: 5s;
+	box-shadow: 5px 5px 30px 0px #e0a338;
+}
+.shai-hulud:hover{
+	opacity: 1;
+}
+.video{
+	width: 560px;
+	height: 320px;
+	margin: 3em auto;
+	border: 2px solid #e0a338;
+}
+.video:hover{
+	border-color: #C2FBFC;
+}
+/*FOOTER*/
+footer{
+	text-align: center;
+	padding: 1em 0 0 0;
+}
+.poster{
+	width: 150px;
+	height: 200px;
+	border: 2px solid #e0a338;
+}
+.copyright{
+	color: #C2FBFC;
+	font-size: 13px;
+	margin: 10px 0 0;
+}
+/*EXTRA QUE EU NÃO LEMBRO DE TER ESCRITO*/
+@media screen and (max-width:480px){
+	.caixa, .quotes, .shai-hulud, .nomes{
+		width: auto;
+	}
+	.shai-hulud, .nome{
+		width: 100%;
+	}
+
+}
